@@ -65,13 +65,14 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
-        name: 'Gatsby Yuque Starter',
-        short_name: 'Yuque',
+        name: 'Blog for holoto',
+        short_name: 'holoto',
         start_url: '/',
         background_color: '#ffffff',
         theme_color: '#663399',
         display: 'minimal-ui',
-
+        icon: `static/128.png`,
+        legacy: false,
       },
     },
 

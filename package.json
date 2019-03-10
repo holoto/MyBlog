@@ -5,7 +5,7 @@
   "version": "0.2.3",
   "author": "holoto",
   "bugs": {
-    "url": "https://github.com/holoto/holoto.github.io"
+    "url": "https://github.com/holoto/MyBlog"
   },
   "dependencies": {
 
@@ -46,15 +46,15 @@
     "eslint-plugin-react": "^7.12.4",
     "prettier": "^1.16.4"
   },
-  "homepage": "https://github.com/holoto/holoto.github.io#readme",
+  "homepage": "https://github.com/holoto/MyBlog#readme",
   "keywords": [
-    "gatsby"
+    "gatsby","blog","holoto"
   ],
   "license": "MIT",
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/holoto/holoto.github.io.git"
+    "url": "git+https://github.com/holoto/MyBlog.git"
   },
   "scripts": {
     "netlify": "npm run clean&& npm run build",

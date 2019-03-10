@@ -62,11 +62,11 @@ class BlogPostTemplate extends React.Component {
     const gitalk = new Gitalk({
       clientID: 'bbf146b5a9317b386d1a',
       clientSecret: '3ec2697fb42e369e5fdad6de6f52bea97a90ac53',
-      repo: 'holoto.github.io',
+      repo: 'MyBlog',
       owner: 'holoto',
       admin: ['holoto'],
       perPage: 100,
-      id: this.props.location, // Ensure uniqueness and length less than 50
+      id: this.props.location.href, // Ensure uniqueness and length less than 50
       distractionFreeMode: false, // Facebook-like distraction free mode
     })
     gitalk.render('gitalk-container')
