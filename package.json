@@ -8,12 +8,13 @@
     "url": "https://github.com/holoto/MyBlog"
   },
   "dependencies": {
-
-  "gatsby": "^2.1.27",
+    "gatsby": "^2.1.27",
     "gatsby-image": "^2.0.31",
+    "gatsby-plugin-baidu-analytics": "^1.1.16",
     "gatsby-plugin-feed": "^2.0.14",
     "gatsby-plugin-google-analytics": "^2.0.16",
     "gatsby-plugin-manifest": "^2.0.22",
+    "gatsby-plugin-netlify-functions": "^0.0.3",
     "gatsby-plugin-offline": "^2.0.24",
     "gatsby-plugin-react-helmet": "^3.0.8",
     "gatsby-plugin-sharp": "^2.0.25",
@@ -28,13 +29,13 @@
     "gatsby-source-yuque": "^0.0.7",
     "gatsby-transformer-remark": "^2.3.1",
     "gatsby-transformer-sharp": "^2.1.15",
+    "gitalk": "^1.5.0",
     "prismjs": "^1.15.0",
-     "gitalk": "^1.5.0",
     "react": "^16.8.4",
-    "react-pdf": "^4.0.5",
-    "react-share":"^2.4.0",
     "react-dom": "^16.8.4",
     "react-helmet": "^5.2.0",
+    "react-pdf": "^4.0.5",
+    "react-share": "^2.4.0",
     "react-typography": "^0.16.19",
     "typeface-merriweather": "0.0.72",
     "typeface-montserrat": "0.0.54",
@@ -48,7 +49,9 @@
   },
   "homepage": "https://github.com/holoto/MyBlog#readme",
   "keywords": [
-    "gatsby","blog","holoto"
+    "gatsby",
+    "blog",
+    "holoto"
   ],
   "license": "MIT",
   "main": "n/a",
